@@ -5,7 +5,7 @@ class DraftagentMcp < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/draftagent/draftagent/releases/download/v0.1.0/draftagent-mcp-aarch64-apple-darwin.tar.xz"
-      sha256 "c1e76cbf16e49d6b13a9515fc647735b5d83ebb06f73e4988641558929993d05"
+      sha256 "8350c7a19415acd8d30401f0b64679b4614f8a27199b8dbdcdb63226dbf7a5cf"
     end
   end
   license "MIT"
